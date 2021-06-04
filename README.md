@@ -13,7 +13,7 @@ Migration tools for moving from Substack to Ghost
 # ⬇️ Run Ghost migration tool (npm package) on posts.csv
 # (Substack phraseology)
 migrate substack ${WORKDIR}/posts.csv \
-# ⬇️Posts directory
+# ⬇️ Posts directory
 --readPosts ${WORKDIR}/posts \
 # ⬇️ Run in verbose mode
 --verbose \
