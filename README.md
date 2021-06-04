@@ -29,7 +29,7 @@ migrate substack ${WORKDIR}/posts.csv \
 # ⬇️ Scrape images, etc
 --scrape all \
 # Current URL of Substack publication
---url optout.substack.com \
+--url your-publication.substack.com \
 # ⬇️ Email is good for associating the posts
 # with a specific author. Will associate
 # with existing user if not one exists.
