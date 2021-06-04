@@ -17,7 +17,7 @@ Then run this script, replacing the variables as appropriate.
 ```bash
 
 # Set an environment variable with the location of your data export.
-# Replace the path in quotes ⬇️ with the path to your Substack data export
+# Replace the path in quotes ⬇️ with the path to your Substack data.
 export WORKDIR="./your_publication-export-20xx-x-x-hash_here"
 
 # ⬇️ Run Ghost migration tool (npm package) on posts.csv
