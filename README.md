@@ -24,7 +24,7 @@ migrate substack ${WORKDIR}/posts.csv \
 # ⬇️ Email is good for associating the posts
 # with a specific author. Will associate
 # with existing user if not one exists.
---email alex@optout.news \
+--email author-name@optout.news \
 # ⬇️ Import drafts
 --drafts true \
 # ⬇️ Mutate any current Substack subscribe links,
