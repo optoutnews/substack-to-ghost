@@ -20,8 +20,8 @@ Then run this script, replacing the variables as appropriate.
 # Replace the path in quotes ⬇️ with the path to your Substack data.
 export WORKDIR="./your_publication-export-20xx-x-x-hash_here"
 
-# ⬇️ Run Ghost migration tool (npm package) on posts.csv
-# (Substack phraseology)
+# ⬇️ Run Ghost migration tool on posts export
+# file (Substack phraseology)
 migrate substack ${WORKDIR}/posts.csv \
 
 # ⬇️ Set posts directory
