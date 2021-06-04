@@ -5,6 +5,15 @@ Migration tools for moving from Substack to Ghost
 
 ## Migrating content
 
+To migrate posts, use Ghost's official migration tool.
+
+Install the migration tool with NPM:
+
+`npm install --global @tryghost/migrate`
+
+
+Then run this script, replacing the variables as appropriate.
+
 ```bash
 
 # Replace this path ↘️ with the path to your Substack data export
